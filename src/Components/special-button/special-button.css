@@ -1,0 +1,21 @@
+.summary__item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 1rem;
+    padding: .7em 1em;
+    width: 18rem;
+    font-weight: 600;
+
+}
+
+.summary__item-label{
+    display: flex;
+    align-items: center;
+    gap: .7rem;
+}
+
+.summary__item-total{
+    color: hsl(224, 30%, 27%);
+    opacity: .6;
+}
