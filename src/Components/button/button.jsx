@@ -1,15 +1,18 @@
 import './button.css';
 
-function Button({button_value,background_color,text_color}) {
+// button_value,background_color,text_color
+// we can assign default values for parameters ellli bech n3addiwouhom 
+
+function Button(props) {
 
     const style={
-        backgroundColor:background_color, 
-        color:text_color
+        backgroundColor:props?.background_color, 
+        color:props?.text_color
     }
 
     return (
         <button className="summary__button" style={style}>
-            {button_value}
+            {props?.button_value}
         </button>
     );
 }

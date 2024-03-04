@@ -1,6 +1,7 @@
 import "./summary.css";
-import SpecialButton from "../Special-Button/special-btn.jsx";
-import Button from "../button/button.jsx";
+import SpecialButton from "../Special-Button/special-btn";
+import Button from "../Button/button.jsx";
+
 function Summary(){
 
     const buttonData = [
